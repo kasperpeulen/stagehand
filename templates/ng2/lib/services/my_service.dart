@@ -4,5 +4,7 @@ import 'package:angular2/angular2.dart';
 
 @Injectable()
 class MyService {
-  String name = 'Kasper';
+  String name = '';
+
+  bool get nameNotEmpty => name.trim().isNotEmpty;
 }
