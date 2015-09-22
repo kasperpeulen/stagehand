@@ -34,6 +34,7 @@ import 'generators/server_shelf.dart';
 import 'generators/web_polymer.dart';
 import 'generators/web_simple.dart';
 import 'src/common.dart';
+import 'package:stagehand/generators/ng2.dart';
 
 /// A curated, prescriptive list of Dart project generators.
 final List<Generator> generators = [
@@ -43,7 +44,7 @@ final List<Generator> generators = [
   new ServerAppEngineGenerator(),
   new ServerShelfGenerator(),
   new WebPolymerGenerator(),
-  new WebSimpleGenerator()
+  new Ng2Generator()
 ]..sort();
 
 Generator getGenerator(String id) {
