@@ -15,11 +15,13 @@ Kit and Yeoman.
 ## Stagehand templates
 * `console-full` - A larger command-line application sample.
 * `console-simple` - A simple command-line application.
-* `ng2` - An absolute bare-bones web app.
+* `ng2` - An absolute bare-bones ng2 app.
+* `ng2-router` - An bare-bones ng2 app with routing.
 * `package-simple` - A starting point for Dart libraries or applications.
 * `server-appengine` - A simple App Engine application.
 * `server-shelf` - A web server built using the shelf package.
 * `web-polymer` - A web app built using polymer.dart.
+* `web-simple` - An absolute bare-bones web app.
 
 ## Installation
 

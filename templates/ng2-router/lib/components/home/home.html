@@ -1,0 +1,3 @@
+<p>What is your name ?</p>
+<input type="text" placeholder="Type your name." [(ng-model)]="service.name">
+<p *ng-if="service.nameNotEmpty">Hello, {{ service.name }}!</p>
