@@ -2,8 +2,6 @@ library {{projectName}}.components.about;
 
 import 'package:angular2/angular2.dart';
 
-import 'package:{{projectName}}/services/my_service.dart';
-
 @Component(selector: 'about')
 @View(
     template: '''
