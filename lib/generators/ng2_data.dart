@@ -31,10 +31,9 @@ ZS50cmltKCkuaXNOb3RFbXB0eTsKfQo=""",
   "pubspec.yaml",
   "text",
   """bmFtZToge3twcm9qZWN0TmFtZX19CnZlcnNpb246IDAuMC4wCmRlc2NyaXB0aW9uOiAKYXV0aG9y
-OiBLYXNwZXIgUGV1bGVuIDxrYXNwZXJwZXVsZW5AZ21haWwuY29tPgplbnZpcm9ubWVudDoKICBz
-ZGs6ICc+PTEuMTIuMCA8Mi4wLjAnCmRlcGVuZGVuY2llczoKICBhbmd1bGFyMjogJ14yLjAuMC1h
-bHBoYS4zNycKICBicm93c2VyOiAnXjAuMTAuMCsyJwp0cmFuc2Zvcm1lcnM6Ci0gYW5ndWxhcjI6
-CiAgICBlbnRyeV9wb2ludHM6IHdlYi9tYWluLmRhcnQ=""",
+OgplbnZpcm9ubWVudDoKICBzZGs6ICc+PTEuMTIuMCA8Mi4wLjAnCmRlcGVuZGVuY2llczoKICBh
+bmd1bGFyMjogJ14yLjAuMC1hbHBoYS4zNycKICBicm93c2VyOiAnXjAuMTAuMCsyJwp0cmFuc2Zv
+cm1lcnM6Ci0gYW5ndWxhcjI6CiAgICBlbnRyeV9wb2ludHM6IHdlYi9tYWluLmRhcnQ=""",
   "web/index.html",
   "text",
   """PCFkb2N0eXBlIGh0bWw+CjxodG1sPgogIDxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgi
