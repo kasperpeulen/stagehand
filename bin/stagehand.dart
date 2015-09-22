@@ -32,7 +32,7 @@ void main(List<String> args) {
       // analytics, the analytics I/O can cause the CLI to wait to terminate.
       // This is annoying to the user, as the tool has already completed its
       // work from their perspective.
-      run('pub', arguments: 'get --no-package-symlinks --offline'.split(' '));
+      run('pub', arguments: 'get'.split(' '));
       io.exit(0);
     });
   } catch (e, st) {
