@@ -1,80 +1,23 @@
-# Stagehand - A Dart project generator
+# Stagehand - Angular 2 Fork
 
-![Stagehand banner](https://raw.githubusercontent.com/google/stagehand/master/site/banner_stagehand.jpg)
+This is a (temporary) fork of [https://github.com/google/stagehand](stagehand) for people that want to give angular 2 an early try. Once angular 2 is ready, stagehand will probably come with their own templates for angular 2.
 
-[![pub package](https://img.shields.io/pub/v/stagehand.svg)](https://pub.dartlang.org/packages/stagehand)
-[![Build Status](https://travis-ci.org/google/stagehand.svg?branch=master)](https://travis-ci.org/google/stagehand)
-[![Coverage Status](https://coveralls.io/repos/google/stagehand/badge.svg?branch=master)](https://coveralls.io/r/google/stagehand?branch=master)
+To activate the fork:
+```
+pub global activate --source git https://github.com/kasperpeulen/stagehand
+```
 
-## Helps you get set up!
+To create a new angular 2 template:
 
-Stagehand helps you get your Dart projects set up and ready for the big show.
-It is a Dart project scaffolding generator, inspired by tools like Web Starter
-Kit and Yeoman.
+```
+mkdir fancy_project
+cd fancy_project
+stagehand ng2
+```
 
-## Stagehand templates
-* `console-full` - A larger command-line application sample.
-* `console-simple` - A simple command-line application.
-* `ng2` - An absolute bare-bones ng2 app.
-* `ng2-router` - An bare-bones ng2 app with routing.
-* `package-simple` - A starting point for Dart libraries or applications.
-* `server-appengine` - A simple App Engine application.
-* `server-shelf` - A web server built using the shelf package.
-* `web-polymer` - A web app built using polymer.dart.
-* `web-simple` - An absolute bare-bones web app.
+If you want a template with routing:
 
-## Installation
+```
+stagehand ng2-router
+```
 
-Requirements:
-
-To install:
-
-    $> pub global activate stagehand
-
-To update:
-
-    # activate stagehand again
-    $> pub global activate stagehand
-
-## Usage
-
-Stagehand will generate a project skeleton into the current directory. As an
-example, here is how you create a package with Stagehand:
-
-    $> mkdir fancy_project
-    $> cd fancy_project
-    $> stagehand package-simple
-
-And to list all of the project templates:
-
-    $> stagehand
-
-## Goals
-
-* Opinionated and prescriptive; minimal to no options
-* Mobile-first
-* Support server and client apps
-* Becomes the best way to create a new Dart project
-* Used by Atom, WebStorm, Sublime, and more
-* Distributed as a pub package
-
-## Issues and bugs
-
-Please file reports on the
-[GitHub Issue Tracker](https://github.com/google/stagehand/issues).
-
-## Contributing
-
-Contributions welcome! Please read this short
-[guide](https://github.com/google/stagehand/wiki/Contributing) first.
-
-## Analytics and crash reports
-
-Learn more about how [Stagehand uses Google Analytics][analytics] for measuring
-usage and error reporting, and how you can opt-out.
-
-## Disclaimer
-
-This is not an official Google product.
-
-[analytics]: https://github.com/google/stagehand/wiki/Anonymous-analytics-and-crash-reports
